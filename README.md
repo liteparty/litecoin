@@ -1,3 +1,15 @@
+Litcoin Core + addrindex
+========================
+
+This fork is Litecoin Core with an additional feature which allows querying arbitrary addresses.
+
+To use add the following to your `litecoin.conf`:
+
+    txindex=1
+    addrindex=1
+
+First run will require a full reindex of the blockchain. After that, the `searchrawtransactions` will be available.
+
 Litecoin Core integration/staging tree
 =====================================
 
